@@ -1,3 +1,32 @@
-# First Chapter
+# Eine Statische Webseite
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+## Statische und Dynamische Webseiten
+
+text
+
+## Vorbereitung
+
+Github account 
+
+text editor
+
+repository aufsetzen
+
+## Deine erste Mitteilung an die Welt
+
+ein normaler text schreiben und pushen
+
+## HTML: strukturieren
+
+verschiedene HTML tags benutzen
+
+## CSS: deine eigene Layout
+
+CSS file zufügen
+
+CSS schreiben
+
+
+
+
+
