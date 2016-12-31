@@ -20,13 +20,15 @@ Github hat wie der Name schon verrät was mit Git zu tun. Es ist nämlich einen 
 
 ## Vorbereitung
 
+### Tools installieren
+
 Für dieses Teil des Tutorials brauchst du folgende Tools:
 
 * Ein code editor
 * GIT
 * Ein github account
 
-Wie man diese sachen installiert ist erklärt im [Django Girls Tutorial Installation](https://tutorial.djangogirls.org/en/installation/#install-a-code-editor) Kapitel. Du musst nur die entsprechende Abschnitte beachten: 
+Wie man diese sachen installiert ist erklärt im [Django Girls Tutorial Installation](https://tutorial.djangogirls.org/en/installation/#install-a-code-editor) Kapitel. Du musst nur die entsprechende Abschnitte beachten:
 
 * Install  a code editor
 * Install GIT
@@ -38,7 +40,7 @@ Als nächstes brauchst du auf deinen Rechner ein Ordner wo du deine codefiles di
 
 > NOTE: Auf Windows solltest du darauf achten das dieses Verzeichnis keine Spezialzeichen enthaltet. Wenn dein Benutzername Spezialzeichen enthaltet ist es besser ein andere Ordner zu wählen zum beispiel`C:\djangogirls`.
 
-In dieses Verzeichnis machen wir jetzt ein neuer Ordner mit der Name `djangogirls`. 
+In dieses Verzeichnis machen wir jetzt ein neuer Ordner mit der Name `djangogirls`.
 
 ! Erstes mal command line: Hier sollten wir wohl noch mehr info einfügen \(was ist es wo ist es etc.\).
 
@@ -49,13 +51,13 @@ $ mkdir djangogirls
 $ cd djangogirls
 ```
 
-Schliesse das Terminal noch nicht, du brauchst es nachher noch! 
+Schliesse das Terminal noch nicht, du brauchst es nachher noch!
 
 ### Ein Repository auf Github
 
-Wir wissen schon das Github ein Lagerplatz für Versionierte Code Projekte. Jedes Projekt hat sein eigenes sogenantes Repository. Das ist ein spezieller Ordner der eben auch die verschiedene Versionen und Änderungen für seine Files speichert. Die Magic hiner ein Repository steckt in einen unsichtbaren Unterordner der immer .git heisst. Wir werden also ein neues repository auf github machen, und dies dann zu unserem Rechner 'clonen'. 
+Wir wissen schon das Github ein Lagerplatz für Versionierte Code Projekte. Jedes Projekt hat sein eigenes sogenantes Repository. Das ist ein spezieller Ordner der eben auch die verschiedene Versionen und Änderungen für seine Files speichert. Die Magic hiner ein Repository steckt in einen unsichtbaren Unterordner der immer .git heisst. Wir werden also ein neues repository auf github machen, und dies dann zu unserem Rechner 'clonen'.
 
-Gehe im Browser zu `https://github.com/new` \(wenn du ein 404 Error bekommst musst du dich zuerst noch einloggen\). Nur das Feld Repository muss ausgefüllt werden und zwar mit_ _`username.github.io` wobei username dein Github Benutzername ist. Achte darauf das der Teil vor dem ersten Punkt genau mit deinen Github Benutzernamen übereinstimmt. Dies muss so sein weil Github nur Files in dieses Repository wie eine Webseite darstellt auf `http://username.github.io`.  Dann wähle Create Repository. 
+Gehe im Browser zu `https://github.com/new` \(wenn du ein 404 Error bekommst musst du dich zuerst noch einloggen\). Nur das Feld Repository muss ausgefüllt werden und zwar mit_ _`username.github.io` wobei username dein Github Benutzername ist. Achte darauf das der Teil vor dem ersten Punkt genau mit deinen Github Benutzernamen übereinstimmt. Dies muss so sein weil Github nur Files in dieses Repository wie eine Webseite darstellt auf `http://username.github.io`.  Dann wähle Create Repository.
 
 Jetzt kannst du wieder zurück zum Terminal gehen und das gerade gemachte repository zu deinen Rechner clonen mit folgenden Befehl \(ersetze immer username mit dein Github Benutzernamen\):
 
@@ -66,7 +68,7 @@ $ git clone https://github.com/username/username.github.io
 $ cd username.github.io
 ```
 
-Jetzt solltest du im djangogirls Ordner ein Ordner mit der namen username.github.io haben. Lasse das Terminal immer noch offen, du Brauchst es immer wieder um mit Git zu arbeiten und deine gemachte änderungen zu Github zu 'pushen'. 
+Jetzt solltest du im djangogirls Ordner ein Ordner mit der namen username.github.io haben. Lasse das Terminal immer noch offen, du Brauchst es immer wieder um mit Git zu arbeiten und deine gemachte änderungen zu Github zu 'pushen'.
 
 ## Deine erste Mitteilung an die Welt
 
