@@ -59,20 +59,64 @@ Wir wissen schon das Github ein Lagerplatz für Versionierte Code Projekte. Jede
 
 Gehe im Browser zu `https://github.com/new` \(wenn du ein 404 Error bekommst musst du dich zuerst noch einloggen\). Nur das Feld Repository muss ausgefüllt werden und zwar mit_ _`username.github.io` wobei username dein Github Benutzername ist. Achte darauf das der Teil vor dem ersten Punkt genau mit deinen Github Benutzernamen übereinstimmt. Dies muss so sein weil Github nur Files in dieses Repository wie eine Webseite darstellt auf `http://username.github.io`.  Dann wähle Create Repository.
 
-Jetzt kannst du wieder zurück zum Terminal gehen und das gerade gemachte repository zu deinen Rechner clonen mit folgenden Befehl \(ersetze immer username mit dein Github Benutzernamen\):
+Jetzt kannst du wieder zurück zum Terminal gehen und das gerade gemachte repository zu deinen Rechner clonen mit folgenden Befehl \(ersetze immer _username_ mit dein Github Benutzernamen, und ersetze _Your Name_ und _you@example.com_ durch deinen Namen und deine Emailaddresse. Die Zeilen ohne  dollar zeichen sollst du nicht typen, dein Terminal sollte ungefähr das Antworten auf dem Befehl der Zeile vorher\):
 
 command-line
 
 ```
+$ git config --global user.name "Your Name"
+$ git config --global user.email you@example.com
 $ git clone https://github.com/username/username.github.io
+Cloning into 'username.github.io'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
 $ cd username.github.io
 ```
 
-Jetzt solltest du im djangogirls Ordner ein Ordner mit der namen username.github.io haben. Lasse das Terminal immer noch offen, du Brauchst es immer wieder um mit Git zu arbeiten und deine gemachte änderungen zu Github zu 'pushen'.
+Jetzt solltest du im djangogirls Ordner ein Ordner mit der namen `username.github.io` haben. Lasse das Terminal immer noch offen, du Brauchst es immer wieder um mit Git zu arbeiten und deine gemachte änderungen zu Github zu 'pushen'.
 
 ## Deine erste Mitteilung an die Welt
 
-ein normaler text schreiben und pushen
+Im `username.github.io` Ordner erstellen wir jetzt eine Datei die `index.html` heist. Da eine leere Datei nicht so interessant ist öffnen wir jetzt die Datei mit den code editor den du vorher installiert hast und schreiben etwas rein. Nachdem die Datei gespeichert ist gehen wir wieder zum Terminal um die Datei ins internet zu bringen. 
+
+command-line
+
+```
+$ git status
+On branch master
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+Git hat also die `index.html` Datei gesehen aber noch nicht gespeichert. Damit git deine änderungen festhält muss man also zusätzlich zum speicheren in dem Code Editor, die Daten auch in git speichern. Das speichern in Git heist 'commit'. Es erstellt eine Version von deinen projekt \(alle Dateien im `username.github.io` Ordner in diesem Fall\) wozu du jederzeit zurückgehen kannst. Zum Commit gehört immer eine commit-message. Dies ist eine kurze Beschreibung von was du seit den letzten Commit geändert hast. Das committen in Git geht so:
+
+command-line
+
+```
+$ git add --all
+$ git commit -m "first commit: just saying something"
+[master (root-commit) 4eca6ab] first commit: just saying something
+ 1 file changed, 2 insertions(+)
+ create mode 100644 index.html
+```
+
+Jetzt braucht es nur noch einen schritt um unsere Webseite online zu bringen. Wir müssen nämlich unsere änderungen noch zu Github hochladen. Das macht man mit dem push command: 
+
+command-line
+
+```
+$ git push -u origin master
+```
+
+Du musst dein Github Username und Passwort eingeben, dann wird dein commit an github übergeben. Du hast jetzt eine sehr minimalistische webseite publiziert! Wenn du im browser zu http://_username_.github.io gehst solltest du den Text sehen den du in index.html geschrieben hast.
+
+Hattest du in index.html einen text über mehrere Zeilen geschrieben? Wie sieht er aus im Browser? Falls dein text nur eine Zeile lang war kannst du jetzt noch versuchen einen text über mehrere Zeilen zu schreiben und das ganze Commit-prozess zu wiederhohlen. Du wirst sehen das der Browser keine Zeilenumbrüche erkennt. Deswegen werden wir HTML benutzen müssen um den Text auf unsere Seite zu strukturieren. Genau das werden wir im nächsten Teil machen. Aber zuerst hast du eine Pause verdient. 
 
 ## HTML: strukturieren
 
