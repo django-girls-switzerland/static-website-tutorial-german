@@ -114,7 +114,7 @@ command-line
 $ git push -u origin master
 ```
 
-Du musst dein Github Username und Passwort eingeben, dann wird dein commit an github übergeben. Du hast jetzt eine sehr minimalistische webseite publiziert! Wenn du im browser zu [http://username.github.io](http://\_username\_.github.io) gehst solltest du den Text sehen den du in index.html geschrieben hast.
+Du musst dein Github Username und Passwort eingeben, dann wird dein commit an github übergeben. Du hast jetzt eine sehr minimalistische webseite publiziert! Wenn du im browser zu http://username.github.io gehst solltest du den Text sehen den du in index.html geschrieben hast.
 
 Hattest du in index.html einen text über mehrere Zeilen geschrieben? Wie sieht er aus im Browser? Falls dein text nur eine Zeile lang war kannst du jetzt noch versuchen einen text über mehrere Zeilen zu schreiben und das ganze Commit-prozess zu wiederhohlen. Du wirst sehen das der Browser keine Zeilenumbrüche erkennt. Deswegen werden wir HTML benutzen müssen um den Text auf unsere Seite zu strukturieren. Genau das werden wir im nächsten Teil machen. Aber zuerst hast du eine Pause verdient.
 
