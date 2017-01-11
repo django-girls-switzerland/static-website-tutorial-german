@@ -77,7 +77,7 @@ Jetzt solltest du im djangogirls Ordner ein Ordner mit der namen `username.githu
 
 ## Deine erste Mitteilung an die Welt
 
-Im `username.github.io` Ordner erstellen wir jetzt eine Datei die `index.html` heist. Da eine leere Datei nicht so interessant ist öffnen wir jetzt die Datei mit den code editor den du vorher installiert hast und schreiben etwas rein. Nachdem die Datei gespeichert ist gehen wir wieder zum Terminal um die Datei ins internet zu bringen. 
+Im `username.github.io` Ordner erstellen wir jetzt eine Datei die `index.html` heist. Da eine leere Datei nicht so interessant ist öffnen wir jetzt die Datei mit den code editor den du vorher installiert hast und schreiben etwas rein. Nachdem die Datei gespeichert ist gehen wir wieder zum Terminal um die Datei ins internet zu bringen.
 
 command-line
 
@@ -89,7 +89,7 @@ Initial commit
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	index.html
+    index.html
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
@@ -106,7 +106,7 @@ $ git commit -m "first commit: just saying something"
  create mode 100644 index.html
 ```
 
-Jetzt braucht es nur noch einen schritt um unsere Webseite online zu bringen. Wir müssen nämlich unsere änderungen noch zu Github hochladen. Das macht man mit dem push command: 
+Jetzt braucht es nur noch einen schritt um unsere Webseite online zu bringen. Wir müssen nämlich unsere änderungen noch zu Github hochladen. Das macht man mit dem push command:
 
 command-line
 
@@ -114,9 +114,9 @@ command-line
 $ git push -u origin master
 ```
 
-Du musst dein Github Username und Passwort eingeben, dann wird dein commit an github übergeben. Du hast jetzt eine sehr minimalistische webseite publiziert! Wenn du im browser zu http://_username_.github.io gehst solltest du den Text sehen den du in index.html geschrieben hast.
+Du musst dein Github Username und Passwort eingeben, dann wird dein commit an github übergeben. Du hast jetzt eine sehr minimalistische webseite publiziert! Wenn du im browser zu http://\_username\_.github.io gehst solltest du den Text sehen den du in index.html geschrieben hast.
 
-Hattest du in index.html einen text über mehrere Zeilen geschrieben? Wie sieht er aus im Browser? Falls dein text nur eine Zeile lang war kannst du jetzt noch versuchen einen text über mehrere Zeilen zu schreiben und das ganze Commit-prozess zu wiederhohlen. Du wirst sehen das der Browser keine Zeilenumbrüche erkennt. Deswegen werden wir HTML benutzen müssen um den Text auf unsere Seite zu strukturieren. Genau das werden wir im nächsten Teil machen. Aber zuerst hast du eine Pause verdient. 
+Hattest du in index.html einen text über mehrere Zeilen geschrieben? Wie sieht er aus im Browser? Falls dein text nur eine Zeile lang war kannst du jetzt noch versuchen einen text über mehrere Zeilen zu schreiben und das ganze Commit-prozess zu wiederhohlen. Du wirst sehen das der Browser keine Zeilenumbrüche erkennt. Deswegen werden wir HTML benutzen müssen um den Text auf unsere Seite zu strukturieren. Genau das werden wir im nächsten Teil machen. Aber zuerst hast du eine Pause verdient.
 
 ## HTML: strukturieren
 
