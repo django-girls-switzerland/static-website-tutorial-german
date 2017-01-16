@@ -38,7 +38,7 @@ Wie man diese sachen installiert ist erklärt im [Django Girls Tutorial Installa
 
 Als nächstes brauchst du auf deinen Rechner ein Ordner wo du deine codefiles dieses Workshops ablegen kannst. In den meisten fälle ist dein Home Directory eine gute wahl. Auf Windows sieht dies zum beispiel so aus:`C:\Users\Name\` \(mit `Name` dein Login Name\).
 
-> NOTE: Auf Windows solltest du darauf achten das dieses Verzeichnis keine Spezialzeichen enthaltet. Wenn dein Benutzername Spezialzeichen enthaltet ist es besser ein andere Ordner zu wählen zum beispiel`C:\djangogirls`.
+> TIP: Auf Windows solltest du darauf achten das dieses Verzeichnis keine Spezialzeichen enthaltet. Wenn dein Benutzername Spezialzeichen enthaltet ist es besser ein andere Ordner zu wählen zum beispiel`C:\djangogirls`.
 
 In dieses Verzeichnis machen wir jetzt ein neuer Ordner mit der Name `djangogirls`.
 
@@ -114,13 +114,38 @@ command-line
 $ git push -u origin master
 ```
 
-Du musst dein Github Username und Passwort eingeben, dann wird dein commit an github übergeben. Du hast jetzt eine sehr minimalistische webseite publiziert! Wenn du im browser zu http://username.github.io gehst solltest du den Text sehen den du in index.html geschrieben hast.
+Du musst dein Github Username und Passwort eingeben, dann wird dein commit an github übergeben. Du hast jetzt eine sehr minimalistische webseite publiziert! Wenn du im browser zu [http://username.github.io](http://username.github.io) gehst solltest du den Text sehen den du in index.html geschrieben hast.
 
 Hattest du in index.html einen text über mehrere Zeilen geschrieben? Wie sieht er aus im Browser? Falls dein text nur eine Zeile lang war kannst du jetzt noch versuchen einen text über mehrere Zeilen zu schreiben und das ganze Commit-prozess zu wiederhohlen. Du wirst sehen das der Browser keine Zeilenumbrüche erkennt. Deswegen werden wir HTML benutzen müssen um den Text auf unsere Seite zu strukturieren. Genau das werden wir im nächsten Teil machen. Aber zuerst hast du eine Pause verdient.
 
 ## HTML: strukturieren
 
-verschiedene HTML tags benutzen
+In die Einführung \(How the internet works\) haben wir schon mal über HTML geredet. HTML steht für HyperText Markup Language. HTML besteht aus sogenantent Tags. Es gibt 3 Typen von Tags:
+
+* &lt;Elementname&gt; : Starttag
+* &lt;/Elementname&gt; : Endtag
+* &lt;Elementname/&gt; : Leertag
+
+Das Starttag und Endtag werden immer zusammen verwendet. Der Tekst zwischen den beiden Tags ist das Element. Das Tag sagt etwas darüber aus wie der tekst zwischen den Start- und Endtags dargestellt werden sollte. In folgende Tabelle findest du ein paar Beispiele.
+
+| Erklärung | HTML |
+| :--- | :--- |
+| ordinary paragraph text | `<p>text</p>` |
+| your most important heading | `<h1>A heading</h1>` |
+| a heading at the next level | `<h2>A sub-heading</h2>` |
+| a heading at the next level | `<h3>A sub-sub-heading</h3>`... and so on, up to`<h6>` |
+| emphasize your text | `<em>text</em>` |
+| strongly emphasize your text | `<strong>text</strong>` |
+| go to another line | `<br/>`\(you can't put anything inside br\) |
+| create a link | `<a href="http://djangogirls.org/">link</a>` |
+| make a list | `<ul><li>first item</li><li>second item</li></ul>` |
+| define a section of the page | `<div></div>` |
+
+  Damit bist du jetzt in der Lage deine Webseite in index.html ein bisschen besser zu gestalten. Du könntest zum Beispiel einen Text mit Titel machen und unten dran eine Liste mit links zu den Seiten von den anderen in deine Gruppe. Der Inhalt ist momentan nicht das wichtigste, hauptsache du spielst ein bisschen mit den HTML Tags herum. 
+
+Wenn du, während deinen Text in index.html mit HTML-tags am schmucken bist, mal schauen möchtest wie es dan aussiehen würde, kannst du die Datei zwischendurch auch immer wieder mit deinen Browser öffnen. (Vorher speichern nicht vergessen!)
+
+
 
 ## CSS: deine eigene Layout
 
