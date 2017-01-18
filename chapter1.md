@@ -141,11 +141,48 @@ Das Starttag und Endtag werden immer zusammen verwendet. Der Tekst zwischen den 
 | make a list | `<ul><li>first item</li><li>second item</li></ul>` |
 | define a section of the page | `<div></div>` |
 
+Jede HTML-Seite hat zudem eine Basisstruktur, die immer gleich is. Das äusere Tag-Paar ist immer das &lt;html&gt;...&lt;/html&gt;. Dann gibt est zwei Teilen: Head and Body. In Body kommen die informationen die auf der eigentliche Seite dargestellt werden sollten. Das Head Teil ist dazu da um Meta-Informationen zu definieren. Zum Beispiel der Titel der Seite, welche CSS Files verwendet werden sollen für das Layout, Keywords für die Suchmachine etc. 
+Die ganze basisstruktur sieht also so aus:
+
+```
+<html>
+    <head>
+        ...
+    </head>
+    <body>
+        ...
+    </body>
+</html>
+```
+
   Damit bist du jetzt in der Lage deine Webseite in index.html ein bisschen besser zu gestalten. Du könntest zum Beispiel einen Text mit Titel machen und unten dran eine Liste mit links zu den Seiten von den anderen in deine Gruppe. Der Inhalt ist momentan nicht das wichtigste, hauptsache du spielst ein bisschen mit den HTML Tags herum. 
 
 Wenn du, während deinen Text in index.html mit HTML-tags am schmucken bist, mal schauen möchtest wie es dan aussiehen würde, kannst du die Datei zwischendurch auch immer wieder mit deinen Browser öffnen. (Vorher speichern nicht vergessen!)
 
+![](/assets/tutorial_screenshot.png)
 
+Wenn du zufrieden bist mit der Inhalt und Struktur deiner Seite, ist es zeit sie wieder online zu bringen. Dazu gehen wir zurück zum Terminal, das im Idealfall immer noch offen ist. 
+
+```
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git add --all
+$ git commit -m "adding html"
+[master 9bfcf50] adding html
+ 1 file changed, 20 insertions(+), 2 deletions(-)
+ rewrite index.html (100%)
+$ git push -u origin master
+```
+
+Noch dein Github Username und  Passwort eingeben, und schon ist die neuste version deiner Webseite online! Woohoow! 
 
 ## CSS: deine eigene Layout
 
