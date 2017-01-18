@@ -163,6 +163,8 @@ Wenn du, während deinen Text in index.html mit HTML-tags am schmucken bist, mal
 
 Wenn du zufrieden bist mit der Inhalt und Struktur deiner Seite, ist es zeit sie wieder online zu bringen. Dazu gehen wir zurück zum Terminal, das im Idealfall immer noch offen ist. 
 
+command-line
+
 ```
 $ git status
 On branch master
