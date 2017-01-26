@@ -278,7 +278,108 @@ Bis jetzt haben wir immer der Namen des HTML-Tags als CSS Selector benutzt. Das 
 | ID | `<p id="one_green_thing"> some green text </p>` | `#one_green_thing{ color: #00ff00;}` |
 | Class | `<h1 class="all_red_things">Red title</h1> <p class="all_red_things"> some red text </p>` | `.all_red_things{ color: #ff0000;}` |
 
-Die  `<span>` und `<div>` HTML-Tags sind beide generische Container, wobei span ein inline Element ist, und der Textflow also nicht unterbricht, und div ein Block Element. Diese beiden Elemente werden oft in Kombination mit Klassen oder IDs verwendet um Bestimmte teilen einer Seite ein bestimmtes Layout zu geben. 
+Die  `<span>` und `<div>` HTML-Tags sind beide generische Container, wobei span ein inline Element ist, und der Textflow also nicht unterbricht, und div ein Block Element. Diese beiden Elemente werden oft in Kombination mit Klassen oder IDs verwendet um Bestimmte teilen einer Seite ein bestimmtes Layout zu geben. Das kann dan zum beispiel so aussehen.
+
+index.html
+
+```
+<html>
+    <head>
+        <title>Django Girls Bern</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>Was ist Django Girls Bern</h1>
+        </div>
+        <div id="content">
+            <p>Django Girls Bern ist ein Workshop wo man Programmieren lernt. </p>
+            <p>Während zwei Tage machen wir eine eigene <span class="color">Webseite</span>, 
+            mit einen <span class="color">Blog</span>. 
+            Dazu verwenden wir verschiedene Tools, Frameworks und Programmiersprachen. Ein paar Beispiele sind:</p>
+            <ul>
+                <li><a href="https://de.wikipedia.org/wiki/Hypertext_Markup_Language">HTML</a></li>
+                <li><a href="https://de.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
+                <li><a href="https://de.wikipedia.org/wiki/Git">GIT</a></li>
+                <li><a href="https://de.wikipedia.org/wiki/Python_(Programmiersprache)">Python</a></li>
+                <li><a href="https://de.wikipedia.org/wiki/Django_(Framework)"><span id="big_django">Django</span></a></li>
+                <li><a href="https://de.wikipedia.org/wiki/Kommandozeile">Command line</a></li>
+            </ul>
+            <p>Alle sind super motiviert und die Coaches haben viel geduld. Zudem gibt es feines Essen.</p>
+        </div>
+    </body>
+</html>
+```
+
+main.css
+
+```
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+#header {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #426493;
+}
+
+#content {
+    width: 75%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #426493;
+}
+
+.color{
+    font-weight: bold;
+    color: #426493;
+}
+
+#big_django{
+    font-size: 200%;
+    font-weight: bold;
+}
+```
+
+Und das Resultat:  
+![](/assets/statische-seite.jpg)
+
+Ein Paar Beispiele von Sachen die man mit CSS machen kann kannst du dich von diesen Beispiel sicher abschauen. Für mehr Beispiele kannst du bei [w3schools](http://www.w3schools.com/css/default.asp) vorbei schauen. Probier ein paar Sachen aus, versuche aber nicht sofort die perfekt gestylte Webseite zu machen. Und zum Schluss bringen wir das ganze natürlich noch einmal online:
+
+command-line
+
+```
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+	modified:   main.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git add --all
+$ git commit -m "a complete web page including css"
+[master 80c1d78] a complete web page including css
+ 2 files changed, 63 insertions(+), 22 deletions(-)
+ rewrite index.html (87%)
+$ git push -u origin master
+```
 
 
 
