@@ -1,10 +1,10 @@
 ## CSS: deine eigene Layout
 
-Bis jetzt hast du deine Seite zwar strukturieren können mit Titel und listen und Paragrafen, schön sieht das ganze aber noch nicht aus. Das werden wir jetzt ändern, und dazu werden wir CSS verwenden.
+Bis jetzt hast du deine Seite zwar strukturieren können mit Titel und Listen und Paragrafen, richtig schön sieht das ganze aber noch nicht aus. Das werden wir jetzt ändern, und dazu werden wir CSS verwenden.
 
-CSS steht für Cascading Style Sheets und ist eine Sprache die benutzt wird um das Layout von HTML-Seiten zu beschreiben. Wir werden unserem CSS code in ein separates File schreiben. So kann man es einfacher austauschen wenn wir irgendwann mal der Look aber nicht der Inhalt unsere Seite ändern Wollen. Ein CSS file ist ein normales Textfile das auf .css endet, so weiss jede \(na ja, jede programmierer, und du jetzt auch\)das da eine Layoutbeschreibung drinn ist.
+CSS steht für Cascading Style Sheets und ist eine Sprache die benutzt wird um das Layout von HTML-Seiten zu beschreiben. Wir werden unseren CSS Code in ein separates File schreiben. So kann man es einfacher austauschen wenn wir irgendwann mal den Look nicht aber den Inhalt unserer Seite ändern wollen. Ein CSS File ist ein normales Textfile das auf .css endet, so wissen alle \(na ja, alle ProgrammiererInnen, und du jetzt auch\), dass da eine Layoutbeschreibung drin ist.
 
-Zuerst machen wir also ein neues textfile im gleichen Verzeichniss wo schon index.html drin ist. Ich nenne meins zum Beispiel main.css, aber du kannst deins auch einen anderen Namen geben, solange der auf .css endet. Dieses file kannst du jetzt mit deinem Code Editor öffnen, und dein erster CSS-Code reinschreiben:
+Zuerst machen wir also ein neues Textfile im gleichen Verzeichniss wo schon index.html drin ist. Ich nenne meins zum Beispiel main.css, aber du kannst deinem auch einen anderen Namen geben, solange er auf .css endet. Dieses File kannst du jetzt mit deinem Code Editor öffnen, und deinen erster CSS-Code reinschreiben:
 
 ```
 h1 {
@@ -12,7 +12,9 @@ h1 {
 }
 ```
 
-Dieser Code ändert die Farbe des wichtigsten Headings h1. Nachdem wir die Änderungen im CSS-File gespeichert haben, müssen wir jetzt noch in unserem index.html File irgendwie mitteilen wo der Browser das Layout für diese Seite dann suchen soll. Dazu ergänzen wir im index.html das folgende:
+Dieser Code ändert die Farbe des wichtigsten Headings 'h1'. Nachdem wir die Änderungen im CSS-File gespeichert haben, müssen wir jetzt noch in unserem index.html File irgendwie mitteilen wo der Browser das Layout für diese Seite dann suchen soll. Dazu ergänzen wir im index.html das folgende:
+
+! nk: Noch ergänzen. Wenn du dein CSS File anders genannt hast als main.css musst du natürlich den File Namen im html File auch entsprechend anpassen! 
 
 ```
 <html>
@@ -23,7 +25,7 @@ Dieser Code ändert die Farbe des wichtigsten Headings h1. Nachdem wir die Ände
     ...
 ```
 
-Wenn du jetzt nach dem Speichern das index.html File in deinen Browser öffnest, sollte das h1-Heading jetzt Blau sein, weil \#426493 der Code von ein ganz bestimmtes Blau ist. Willst den Tekst lieber in eine andere Farbe haben? Gebe dann mal in Google "colorpicker" ein, suche dir eine Farbe aus die dir gefällt und kopiere den mit \# anfängenden Code in deinen css File an Stelle von \#426493.
+Wenn du jetzt nach dem Speichern das index.html File in deinem Browser öffnest, sollte das h1-Heading jetzt Blau sein, weil \#426493 der Code von einem ganz bestimmten Blau ist. Willst den Text lieber in einer anderen Farbe haben? Dann gebe mal in Google "colorpicker" ein, suche dir eine Farbe aus die dir gefällt und kopiere die Nummer mit dem '\#' in dein css File an Stelle von '\#426493'.
 
 So, wir haben erfolgreich CSS an unsere Webseite hinzu gefügt. Gleich werden wir noch viel mehr damit machen, aber erst speichern wir diesen erfolgreichen Schritt schon mal ab in GIT und stellen das Resultat ins Netz auf Github.
 
