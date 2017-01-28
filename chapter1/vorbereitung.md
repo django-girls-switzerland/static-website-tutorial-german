@@ -35,7 +35,7 @@ Schliesse das Terminal noch nicht, du brauchst es nachher noch!
 
 ### Ein Repository auf Github
 
-Wir wissen schon das Github ein Lagerplatz für Versionierte Code Projekte. Jedes Projekt hat sein eigenes sogenantes Repository. Das ist ein spezieller Ordner der eben auch die verschiedene Versionen und Änderungen für seine Files speichert. Die Magie hinter einem Repository steckt in einem unsichtbaren Unterordner der immer .git heisst. Wir werden also ein neues Repository auf Github machen und dieses dann auf unseren Rechner klonen.
+Wir wissen schon das Github ein Lagerplatz für versionierte Code Projekte. Jedes Projekt hat sein eigenes sogenantes Repository. Das ist ein spezieller Ordner der eben auch die verschiedene Versionen und Änderungen für seine Files speichert. Die Magie hinter einem Repository steckt in einem unsichtbaren Unterordner der immer .git heisst. Wir werden also ein neues Repository auf Github machen und dieses dann auf unseren Rechner klonen.
 
 Gehe im Browser zu `https://github.com/new` \(wenn du ein 404 Error bekommst musst du dich zuerst noch einloggen\). Nur das Feld Repository muss ausgefüllt werden und zwar mit_ _`username.github.io` wobei username dein Github Benutzername ist. Achte darauf das der Teil vor dem ersten Punkt genau mit deinen Github Benutzernamen übereinstimmt. Dies muss so sein weil Github nur Files in dieses Repository wie eine Webseite darstellt auf `http://username.github.io`.  Dann wähle Create Repository.
 
