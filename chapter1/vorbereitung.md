@@ -8,19 +8,19 @@ Für diesen Teil des Tutorials brauchst du folgende Tools:
 * GIT
 * Ein Github Account
 
-Wie man diese Sachen installiert wir im Kapitel [Django Girls Tutorial Installation](https://tutorial.djangogirls.org/en/installation/#install-a-code-editor) erklärt. Du musst nur die entsprechende Abschnitte beachten:
+Wie man diese Sachen installiert wird im Kapitel [Django Girls Tutorial Installation](https://tutorial.djangogirls.org/en/installation/#install-a-code-editor) erklärt. Du musst nur die entsprechenden Abschnitte beachten:
 
 * Install  a code editor
 * Install GIT
 * Create a GitHub account
 
-### Ein djangogirls ordner auf dein Rechner
+### Ein djangogirls Ordner auf deinem Rechner
 
-Als nächstes brauchst du auf deinen Rechner ein Ordner wo du deine Codefiles dieses Workshops ablegen kannst. In den meisten fälle ist dein Home Directory eine gute Qahl. Auf Windows sieht dies zum beispiel so aus:`C:\Users\Name\` \(mit `Name` dein Login Name\).
+Als nächstes brauchst du auf deinen Rechner ein Ordner wo du deine Codefiles dieses Workshops ablegen kannst. In den meisten Fällen ist dein Home Directory eine gute Wahl. Auf Windows sieht dies zum Beispiel so aus:`C:\Users\Name\` \(mit `Name` dein Login Name\).
 
-> TIP: Auf Windows solltest du darauf achten das dieses Verzeichnis keine Spezialzeichen enthaltet. Wenn dein Benutzername Spezialzeichen enthaltet ist es besser ein andere Ordner zu wählen zum beispiel`C:\djangogirls`.
+> TIP: Auf Windows solltest du darauf achten das dieses Verzeichnis keine Spezialzeichen enthält. Wenn dein Benutzername Spezialzeichen enthält ist es besser einen anderen Ordner zu wählen zum beispiel`C:\djangogirls`.
 
-In dieses Verzeichnis machen wir jetzt ein neuer Ordner mit der Name `djangogirls`.
+In diesem Verzeichnis erstellen wir jetzt einen neuen Ordner mit dem Namen `djangogirls`.
 
 ! Erstes mal command line: Hier sollten wir wohl noch mehr info einfügen \(was ist es wo ist es etc.\). nk: Ev. im Kapitel 'Tools' erklären.
 
