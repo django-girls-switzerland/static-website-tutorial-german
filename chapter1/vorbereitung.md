@@ -8,7 +8,7 @@ Für diesen Teil des Tutorials brauchst du folgende Tools:
 * GIT
 * Ein Github Account
 
-Wie man diese Sachen installiert wird im Kapitel [Django Girls Tutorial Installation](https://tutorial.djangogirls.org/en/installation/#install-a-code-editor) erklärt. Du musst nur die entsprechenden Abschnitte beachten:
+Wie man diese Sachen installiert wird im Kapitel [Django Girls Tutorial Installation](https://tutorial.djangogirls.org/en/installation/#install-a-code-editor) erklärt. Du musst nur folgende Abschnitte beachten:
 
 * Install  a code editor
 * Install GIT
@@ -35,11 +35,11 @@ Schliesse das Terminal noch nicht, du brauchst es nachher noch!
 
 ### Ein Repository auf Github
 
-Wir wissen schon das Github ein Lagerplatz für versionierte Code Projekte. Jedes Projekt hat sein eigenes sogenantes Repository. Das ist ein spezieller Ordner der eben auch die verschiedene Versionen und Änderungen für seine Files speichert. Die Magie hinter einem Repository steckt in einem unsichtbaren Unterordner der immer .git heisst. Wir werden also ein neues Repository auf Github machen und dieses dann auf unseren Rechner klonen.
+Wir wissen schon das Github ein Lagerplatz für versionierte Code Projekte. Jedes Projekt hat sein eigenes sogenantes Repository. Das ist ein spezieller Ordner der eben auch die verschiedene Versionen und Änderungen für seine Files speichert. Diese Magie hinter einem Repository steckt in einem unsichtbaren Unterordner der .git heisst. Wir werden also ein neues Repository auf Github machen und dieses dann auf unseren Rechner klonen.
 
-Gehe im Browser zu `https://github.com/new` \(wenn du ein 404 Error bekommst musst du dich zuerst noch einloggen\). Nur das Feld Repository muss ausgefüllt werden und zwar mit_ _`username.github.io` wobei username dein Github Benutzername ist. Achte darauf das der Teil vor dem ersten Punkt genau mit deinen Github Benutzernamen übereinstimmt. Dies muss so sein weil Github nur Files in dieses Repository wie eine Webseite darstellt auf `http://username.github.io`.  Dann wähle Create Repository.
+Gehe im Browser zu `https://github.com/new` \(wenn du einen 404 Error bekommst musst du dich zuerst noch einloggen\). Nur das Feld Repository muss ausgefüllt werden und zwar mit_ _`username.github.io` wobei username dein Github Benutzername ist. Achte darauf das der Teil vor dem ersten Punkt genau mit deinen Github Benutzernamen übereinstimmt. Dies muss so sein weil Github nur Files in diesem Repository wie eine Webseite darstellt auf `http://username.github.io`. Dann wähle Create Repository.
 
-Jetzt kannst du wieder zurück zum Terminal gehen und das gerade gemachte repository zu deinen Rechner klonen mit untenstehendem Befehl. Ersetze dabei immer _username_ mit dein Github Benutzernamen, und ersetze _Your Name_ und _you@example.com_ durch deinen Namen und deine Emailaddresse. Die Zeilen ohne Dollar Zeichen '$' sollst du nicht eintippen. Dein Terminal sollte ungefähr das Antworten auf dem Befehl der Zeile vorher.
+Jetzt kannst du wieder zurück zum Terminal gehen und das gerade gemachte Repository mit dem untenstehende Befehl auf deinen Rechner klonen. Ersetze dabei immer _username_ mit dein Github Benutzernamen, und ersetze _Your Name_ und _you@example.com_ durch deinen Namen und deine Emailaddresse. Die Zeilen ohne Dollar Zeichen '$' sollst du nicht eintippen, da sind die Antworten des Computers auf deine Befehle. Dein Terminal sollte ungefähr so antworten wie im Beispiel unten.
 
 command-line
 
