@@ -22,7 +22,23 @@ Als nächstes brauchst du auf deinen Rechner ein Ordner wo du deine Codefiles di
 
 In diesem Verzeichnis erstellen wir jetzt einen neuen Ordner mit dem Namen `djangogirls`.
 
-! Erstes mal command line: Hier sollten wir wohl noch mehr info einfügen \(was ist es wo ist es etc.\). nk: Ev. im Kapitel 'Tools' erklären.
+Dazu müssen wir das Terminal öffnen \(Mehr zum Terminal kannst du im Abschnitt [Tools](/chapter1/tools.md) lesen\)
+
+Wir schreiben hier wo du das Terminal am Wahrscheinlichsten finden kannst. Dein Coach hilft dir gern weiter wenn du es Trotzdem nicht findest: 
+
+Für Windows:
+
+Go to Start menu → All Programs → Accessories → Command Prompt.
+
+Für OS X:
+
+Go to Applications → Utilities → Terminal.
+
+Für Linux:
+
+Go to Applications → Accessories → Terminal
+
+Bevor du die folgende Befehle eingibst sollst du zusammen mit dein Coach sicherstellen das du dich im Terminal am richtigen Ort befindest!
 
 command-line
 

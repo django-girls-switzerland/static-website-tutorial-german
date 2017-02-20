@@ -1,8 +1,6 @@
 ## Deine erste Mitteilung an die Welt
 
-Im `username.github.io` Ordner erstellen wir jetzt eine Datei die `index.html` heisst. Da eine leere Datei nicht so interessant ist öffnen wir jetzt die Datei mit dem Code Editor den du vorher installiert hast und schreiben etwas rein. Nachdem die Datei gespeichert ist gehen wir wieder zum Terminal um die Datei ins internet zu bringen.
-
-! nk: 'wir schreiben etwas ins File rein': Vielleicht noch eine Erklärung, dass man schreiben kann was man will... einfach ein paar Wörter/Sätze.
+Im `username.github.io` Ordner erstellen wir jetzt eine Datei die `index.html` heisst. Da eine leere Datei nicht so interessant ist öffnen wir jetzt die Datei mit dem Code Editor den du vorher installiert hast und schreiben etwas rein. Was du genau schreibst spielt nich so eine Rolle, du kannst einfach ein paar Wörter oder Sätze hineinschreiben die dir gerade einfallen. Nachdem die Datei gespeichert ist gehen wir wieder zum Terminal um die Datei ins internet zu bringen.
 
 command-line
 
@@ -20,8 +18,6 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 
 Git hat also die `index.html` Datei gesehen aber noch nicht gespeichert. Damit git deine Änderungen festhält muss man also zusätzlich zum speichern im Code Editor, die Daten auch in git speichern. Das speichern in Git heist 'commit'. Es erstellt eine Version von deinen Projekt \(alle Dateien im `username.github.io` Ordner in diesem Fall\) wohin du jederzeit zurückgehen kannst. Zum Commit gehört immer eine commit-message. Dies ist eine kurze Beschreibung von dem was du seit dem letzten Commit geändert hast. Das committen in Git geht so:
-
-! nk: Ev wollen wir das 'zweistufige' speichern in Git hier auch kurz erwähnen? \(Was ist der unterschied zwischen git add und git commit? Warum brauchen wir beide?\)
 
 command-line
 
@@ -45,5 +41,5 @@ Du musst dein Github Username und Passwort eingeben, dann wird dein commit an gi
 
 Hattest du in index.html einen Text über mehrere Zeilen geschrieben? Wie sieht er aus im Browser? Falls dein Text nur eine Zeile lang war kannst du jetzt noch versuchen einen Text über mehrere Zeilen zu schreiben und den ganzen Commit-Prozess zu wiederhohlen. Du wirst sehen das der Browser keine Zeilenumbrüche erkennt. Deswegen werden wir HTML benutzen müssen um den Text auf unsere Seite zu strukturieren. Genau das werden wir im nächsten Teil machen. Aber zuerst hast du eine Pause verdient.
 
-! nk: Ich würde das wiederholen des Commit Prozess als Aufgabe definieren und nicht als Empfehlung. Ich denke das ist eine gute Übung um git zu verstehen solange man sonst noch nicht viel im Kopf hat... 
+! nk: Ich würde das wiederholen des Commit Prozess als Aufgabe definieren und nicht als Empfehlung. Ich denke das ist eine gute Übung um git zu verstehen solange man sonst noch nicht viel im Kopf hat...
 
