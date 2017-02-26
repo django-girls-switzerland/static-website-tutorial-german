@@ -14,8 +14,6 @@ h1 {
 
 Dieser Code ändert die Farbe des wichtigsten Headings 'h1'. Nachdem wir die Änderungen im CSS-File gespeichert haben, müssen wir jetzt noch in unserem index.html File irgendwie mitteilen wo der Browser das Layout für diese Seite dann suchen soll. Dazu ergänzen wir im index.html das folgende:
 
-! nk: Noch ergänzen. Wenn du dein CSS File anders genannt hast als main.css musst du natürlich den File Namen im html File auch entsprechend anpassen!
-
 ```
 <html>
     <head>
@@ -24,6 +22,8 @@ Dieser Code ändert die Farbe des wichtigsten Headings 'h1'. Nachdem wir die Än
     </head>
     ...
 ```
+
+Wenn du dein CSS File anders genannt hast als main.css musst du den File Namen im html File \(nach `href="`\) auch entsprechend anpassen!
 
 Wenn du jetzt nach dem Speichern das index.html File in deinem Browser öffnest, sollte das h1-Heading jetzt Blau sein, weil \#426493 der Code von einem ganz bestimmten Blau ist. Willst den Text lieber in einer anderen Farbe haben? Dann gebe mal in Google "colorpicker" ein, suche dir eine Farbe aus die dir gefällt und kopiere die Nummer mit dem '\#' in dein css File an Stelle von '\#426493'.
 
