@@ -1,8 +1,6 @@
-# Extras zu deine statische Webseite
+# Extras zu deiner statischen Webseite
 
-## Eine neue seite zufügen und verlinken
-
-
+## Eine neue Seite zufügen und verlinken
 
 ## Adding your own fonts
 
