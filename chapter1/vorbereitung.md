@@ -24,7 +24,7 @@ In diesem Verzeichnis erstellen wir jetzt einen neuen Ordner mit dem Namen `djan
 
 Dazu müssen wir das Terminal öffnen \(Mehr zum Terminal kannst du im Abschnitt [Tools](/chapter1/tools.md) lesen\)
 
-Wir schreiben hier wo du das Terminal am Wahrscheinlichsten finden kannst. Dein Coach hilft dir gern weiter wenn du es Trotzdem nicht findest: 
+Wir schreiben hier wo du das Terminal am Wahrscheinlichsten finden kannst. Dein Coach hilft dir gern weiter wenn du es Trotzdem nicht findest:
 
 Für Windows:
 
@@ -51,7 +51,7 @@ Schliesse das Terminal noch nicht, du brauchst es nachher noch!
 
 ### Ein Repository auf Github
 
-Wir wissen schon das Github ein Lagerplatz für versionierte Code Projekte. Jedes Projekt hat sein eigenes sogenantes Repository. Das ist ein spezieller Ordner der eben auch die verschiedene Versionen und Änderungen für seine Files speichert. Diese Magie hinter einem Repository steckt in einem unsichtbaren Unterordner der .git heisst. Wir werden also ein neues Repository auf Github machen und dieses dann auf unseren Rechner klonen.
+Wir wissen schon das Github ein Lagerplatz für versionierte Code Projekte. Jedes Projekt hat sein eigenes sogenantes Repository. Das ist ein spezieller Ordner der eben auch die verschiedene Versionen und Änderungen für seine Files speichert. Diese Magie hinter einem Repository steckt in einem unsichtbaren Unterordner der .git heisst. Wir werden also ein neues Repository auf Github machen und dieses dann auf unseren Rechner klonen. Dadurch wird es auch in unserem Filesystem auftachen. 
 
 Gehe im Browser zu `https://github.com/new` \(wenn du einen 404 Error bekommst musst du dich zuerst noch einloggen\). Nur das Feld Repository muss ausgefüllt werden und zwar mit_ _`username.github.io` wobei username dein Github Benutzername ist. Achte darauf das der Teil vor dem ersten Punkt genau mit deinen Github Benutzernamen übereinstimmt. Dies muss so sein weil Github nur Files in diesem Repository wie eine Webseite darstellt auf `http://username.github.io`. Dann wähle Create Repository.
 

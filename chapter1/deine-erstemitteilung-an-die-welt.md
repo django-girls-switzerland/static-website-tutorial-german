@@ -41,5 +41,5 @@ Du musst dein Github Username und Passwort eingeben, dann wird dein commit an gi
 
 Hattest du in index.html einen Text über mehrere Zeilen geschrieben? Wie sieht er aus im Browser? Falls dein Text nur eine Zeile lang war kannst du jetzt noch versuchen einen Text über mehrere Zeilen zu schreiben und den ganzen Commit-Prozess zu wiederhohlen. Du wirst sehen das der Browser keine Zeilenumbrüche erkennt. Deswegen werden wir HTML benutzen müssen um den Text auf unsere Seite zu strukturieren. Genau das werden wir im nächsten Teil machen. Aber zuerst hast du eine Pause verdient.
 
-! nk: Ich würde das wiederholen des Commit Prozess als Aufgabe definieren und nicht als Empfehlung. Ich denke das ist eine gute Übung um git zu verstehen solange man sonst noch nicht viel im Kopf hat...
+
 
