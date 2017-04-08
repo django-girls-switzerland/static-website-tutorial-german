@@ -25,7 +25,7 @@ Dieser Code ändert die Farbe des wichtigsten Headings 'h1'. Nachdem wir die Än
 
 Wenn du dein CSS File anders genannt hast als main.css musst du den File Namen im html File \(nach `href="`\) auch entsprechend anpassen!
 
-Wenn du jetzt nach dem Speichern das index.html File in deinem Browser öffnest, sollte das h1-Heading jetzt Blau sein, weil \#426493 der Code von einem ganz bestimmten Blau ist. Willst den Text lieber in einer anderen Farbe haben? Dann gebe mal in Google "colorpicker" ein, suche dir eine Farbe aus die dir gefällt und kopiere die Nummer mit dem '\#' in dein css File an Stelle von '\#426493'.
+Wenn du jetzt nach dem Speichern das index.html File in deinem Browser öffnest, sollte das h1-Heading jetzt Blau sein, weil \#426493 der Farbcode von einem ganz bestimmten Blau ist. Willst den Text lieber in einer anderen Farbe haben? Dann gebe mal in Google "colorpicker" ein, suche dir eine Farbe aus die dir gefällt und kopiere die Nummer mit dem '\#' in dein css File an Stelle von '\#426493'.
 
 So, wir haben erfolgreich CSS zu unserer Webseite hinzu gefügt. Gleich werden wir noch viel mehr damit machen, aber erst speichern wir diesen erfolgreichen Schritt schon mal in GIT und stellen so das Resultat ins Netz. D.h. wir 'deployen' die Änderungen an unserer Webseite.
 
@@ -70,7 +70,7 @@ h1 {
 }
 ```
 
-Wir können zum auch die Schriftarten ändern:
+Wir können zudem auch die Schriftarten ändern:
 
 ```
 body{
@@ -83,9 +83,9 @@ h1 {
 }
 ```
 
-Andere Beispiele von Schriftarten kannst du bei w3schools finden: [http://www.w3schools.com/cssref/css\\_websafe\\_fonts.asp](http://www.w3schools.com/cssref/css\_websafe\_fonts.asp) Diese Fonts werden oft benutzt und sind meistens ohne weiteres Vorhanden. Wenn du exotischere Schriftarten benutzen möchtest ist es gut auch die Schriftart selber zu Verfügung zu stellen, da diese dem Browser nicht automatisch bekannt ist. Mehr Info dazu findest du im Kapitel [/extras-zu-deine-statische-webseite.md](/extras-zu-deine-statische-webseite.md)
+Andere Beispiele von Schriftarten kannst du bei w3schools finden: [http://www.w3schools.com/cssref/css\\_websafe\\_fonts.asp](http://www.w3schools.com/cssref/css_websafe_fonts.asp) Diese Fonts werden oft benutzt und sind meistens ohne weiteres Vorhanden. Wenn du exotischere Schriftarten benutzen möchtest ist es gut auch die Schriftart selber zu Verfügung zu stellen, da diese dem Browser nicht automatisch bekannt ist. Mehr Info dazu findest du im Kapitel [/extras-zu-deine-statische-webseite.md](/extras-zu-deine-statische-webseite.md)
 
-Bis jetzt haben wir immer der Namen des HTML-Tags als CSS Selector benutzt. Das ist sinnvoll wenn die CSS-Regel sich auf alle Headings, Paragraphen oder Links bezieht. Was aber wenn nur ein spezifisches Element oder eine Gruppe von Elementen ein bestimmtes Layout brauchen? Für den Fall brauchen wir eine andere Art von Selectoren: Klassen und IDs. Jedem HTML-Tag kann man eine Klasse und eine ID mitgeben. Dabei darf jede ID aber nur einmal pro HTML-Seite vorkommen. Zu eine Klasse dagegen dürfen mehrere Elemente gleichzeitig gehören.
+Bis jetzt haben wir immer der Namen des HTML-Tags als CSS Selector benutzt. Das ist sinnvoll wenn die CSS-Regel sich auf alle Headings, Paragraphen oder Links bezieht. Was aber wenn nur ein spezifisches Element oder eine Gruppe von Elementen ein bestimmtes Layout brauchen? Für den Fall brauchen wir eine andere Art von Selectoren: Klassen und IDs. Jedem HTML-Tag kann man eine oder mehrere Klassen und eine ID mitgeben. Dabei darf jede ID aber nur einmal pro HTML-Seite vorkommen. Zu eine Klasse dagegen dürfen mehrere Elemente gleichzeitig gehören.
 
 | Name | Benutzung im HTML-File | Benutzung im CSS-File |
 | :--- | :--- | :--- |
