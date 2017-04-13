@@ -83,7 +83,7 @@ h1 {
 }
 ```
 
-Andere Beispiele von Schriftarten kannst du bei w3schools finden: [http://www.w3schools.com/cssref/css\\_websafe\\_fonts.asp](http://www.w3schools.com/cssref/css_websafe_fonts.asp) Diese Fonts werden oft benutzt und sind meistens ohne weiteres Vorhanden. Wenn du exotischere Schriftarten benutzen möchtest ist es gut auch die Schriftart selber zu Verfügung zu stellen, da diese dem Browser nicht automatisch bekannt ist. Mehr Info dazu findest du im Kapitel [/extras-zu-deine-statische-webseite.md](/extras-zu-deine-statische-webseite.md)
+Andere Beispiele von Schriftarten kannst du bei w3schools finden: [http://www.w3schools.com/cssref/css\\_websafe\\_fonts.asp](http://www.w3schools.com/cssref/css_websafe_fonts.asp) Diese Fonts werden oft benutzt und sind meistens ohne weiteres Vorhanden. Wenn du exotischere Schriftarten benutzen möchtest ist es gut auch die Schriftart selber zu Verfügung zu stellen, da diese dem Browser nicht automatisch bekannt ist. Mehr Info dazu findest du im Kapitel [extras zu deine statische Webseite](/extras-zu-deine-statische-webseite.md)
 
 Bis jetzt haben wir immer der Namen des HTML-Tags als CSS Selector benutzt. Das ist sinnvoll wenn die CSS-Regel sich auf alle Headings, Paragraphen oder Links bezieht. Was aber wenn nur ein spezifisches Element oder eine Gruppe von Elementen ein bestimmtes Layout brauchen? Für den Fall brauchen wir eine andere Art von Selectoren: Klassen und IDs. Jedem HTML-Tag kann man eine oder mehrere Klassen und eine ID mitgeben. Dabei darf jede ID aber nur einmal pro HTML-Seite vorkommen. Zu eine Klasse dagegen dürfen mehrere Elemente gleichzeitig gehören.
 
