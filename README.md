@@ -6,6 +6,12 @@
 >
 > The CSS chapter is inspired by and uses material from the Introduction to HTML/CSS curriculum from Girl Develop It \([https://www.girldevelopit.com/materials/html-intro](https://www.girldevelopit.com/materials/html-intro), licensed under the MIT License\)
 
+
+
+> ##### Benutzte Sprache: 
+>
+> Du hast die deutschsprachige Version dieses Gitbooks vor dich \(hier kannst du zur Englischsprachigen Version wechseln\). Du wirst aber merken das die Links zum Django Girls Tutorial auf English sind. Dies ist so weil es noch keine offizielle deutschsprachige version des Django Girls Tutorial selber gibt. Es gibt aber eine Beta-Version die du benutzen kannst wenn du etwas in die Englische Version nicht verstehst. Die Beta-Version des DjangoGirls Tutorials auf Deutsch findest du hier.
+
 ## Was wir am Workshop machen werden
 
 ### Lernen wie das Internet funktioniert.
