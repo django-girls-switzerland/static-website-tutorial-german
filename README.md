@@ -5,12 +5,10 @@
 > This tutorial is ment to be used closely together with the official djangogirls tutorial and has duplicated some material from it for convenience \([https://tutorial.djangogirls.org/en](https://tutorial.djangogirls.org/en), licensed under the Creative Commons Attribution-ShareAlike 4.0 International License\)
 >
 > The CSS chapter is inspired by and uses material from the Introduction to HTML/CSS curriculum from Girl Develop It \([https://www.girldevelopit.com/materials/html-intro](https://www.girldevelopit.com/materials/html-intro), licensed under the MIT License\)
-
-
-
-> ##### Benutzte Sprache: 
 >
-> Du hast die deutschsprachige Version dieses Gitbooks vor dich \(hier kannst du zur Englischsprachigen Version wechseln\). Du wirst aber merken das die Links zum Django Girls Tutorial auf English sind. Dies ist so weil es noch keine offizielle deutschsprachige version des Django Girls Tutorial selber gibt. Es gibt aber eine Beta-Version die du benutzen kannst wenn du etwas in die Englische Version nicht verstehst. Die Beta-Version des DjangoGirls Tutorials auf Deutsch findest du hier.
+> ##### Benutzte Sprache:
+>
+> Du hast die deutschsprachige Version dieses Gitbooks vor dir \([hier kannst du zur englischsprachigen Version wechseln](https://djangogirlsbern.gitbooks.io/first-website-english/)\). Du wirst aber merken, dass die Links zum Django Girls Tutorial auf Englisch sind. Dies ist so, weil es noch keine offizielle deutschsprachige Version des Django Girls Tutorials gibt. Es gibt aber eine Beta-Version, die du benutzen kannst, wenn du etwas in der englischen Version nicht verstehst. **Die Beta-Version des Django Girls Tutorials auf Deutsch findest du **[**hier**](https://fabioanderegg.gitbooks.io/djangogirls-deutsch/de/)**.**
 
 ## Was wir am Workshop machen werden
 
