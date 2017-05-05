@@ -52,12 +52,12 @@ $ git commit -m "a little bit of css"
 [master a0850fb] a little bit of css
  2 files changed, 4 insertions(+)
  create mode 100644 main.css
-$ git push -u origin master
+$ git push
 ```
 
 Noch dein Github Username und  Passwort eingeben, und schon ist die neuste Version deiner Webseite online! Woohoow!
 
-Schauen wir uns dem Code dem wir schon in unserem CSS-File geschrieben haben jetzt mal genauer an. Es sieht ähnlich aus wie im unterstehenden Bild, ausser das wir eine andere Farbe und ein andere Selector benutzt haben. Kannst du erraten was das CSS aus dem Bild macht? \(Falls du es ausprobieren willst kannst du den Code einfach unter den schon bestehenden Code in dein CSS-file schreiben, speichern und dir deine Webseite wieder im Browser anschauen. Da \#333333 ein sehr dunkles Grau ist, und damit schwierig von schwarz zu unterscheiden kannst du dem am besten durch eine andere Farbe ersetzen.\)![](/assets/cssrule.png)Bild von [https://www.girldevelopit.com/materials](https://www.girldevelopit.com/materials) 
+Schauen wir uns dem Code dem wir schon in unserem CSS-File geschrieben haben jetzt mal genauer an. Es sieht ähnlich aus wie im unterstehenden Bild, ausser das wir eine andere Farbe und ein andere Selector benutzt haben. Kannst du erraten was das CSS aus dem Bild macht? \(Falls du es ausprobieren willst kannst du den Code einfach unter den schon bestehenden Code in dein CSS-file schreiben, speichern und dir deine Webseite wieder im Browser anschauen. Da \#333333 ein sehr dunkles Grau ist, und damit schwierig von schwarz zu unterscheiden kannst du dem am besten durch eine andere Farbe ersetzen.\)![](/assets/cssrule.png)Bild von [https://www.girldevelopit.com/materials](https://www.girldevelopit.com/materials)
 
 Das was wir geschreiben haben nennt sich eine CSS-Regel. Um das ganze Layout einer Webseite zu beschreiben benutzt man ganz viele von diesen CSS-Regeln. Man kann sie einfach untereinander in einem CSS File schreiben. Eine Regel kann dabei mehrere Deklarationen enthalten. Deklarationen sind immer in der Form `Eigenschaft: Wert;` .
 
@@ -192,7 +192,7 @@ $ git commit -m "a complete web page including css"
 [master 80c1d78] a complete web page including css
  2 files changed, 63 insertions(+), 22 deletions(-)
  rewrite index.html (87%)
-$ git push -u origin master
+$ git push
 ```
 
 
