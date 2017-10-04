@@ -1,38 +1,47 @@
-# Django Girls Bern Extended Workshop
+# Django Girls Zürich Workshop
 
-> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
->
-> This tutorial is ment to be used closely together with the official djangogirls tutorial and has duplicated some material from it for convenience \([https://tutorial.djangogirls.org/en](https://tutorial.djangogirls.org/en), licensed under the Creative Commons Attribution-ShareAlike 4.0 International License\)
->
-> The CSS chapter is inspired by and uses material from the Introduction to HTML/CSS curriculum from Girl Develop It \([https://www.girldevelopit.com/materials/html-intro](https://www.girldevelopit.com/materials/html-intro), licensed under the MIT License\)
->
-> ##### Benutzte Sprache:
->
-> Du hast die deutschsprachige Version dieses Gitbooks vor dir \([hier kannst du zur englischsprachigen Version wechseln](https://djangogirlsbern.gitbooks.io/first-website-english/)\). Du wirst aber merken, dass die Links zum Django Girls Tutorial auf Englisch sind. Dies ist so, weil es noch keine offizielle deutschsprachige Version des Django Girls Tutorials gibt. Es gibt aber eine Beta-Version, die du benutzen kannst, wenn du etwas in der englischen Version nicht verstehst. **Die Beta-Version des Django Girls Tutorials auf Deutsch findest du **[**hier**](https://fabioanderegg.gitbooks.io/djangogirls-deutsch/de/)**.**
 
-## Was wir am Workshop machen werden
+
+
+## A. Vorbereitung
 
 ### Lernen wie das Internet funktioniert.
 
-Dies ist im Kapitel [How the internet works](https://tutorial.djangogirls.org/en/how_the_internet_works/) im Django Girls Tutorial sehr gut erklärt. Dieses Kapitel kann als Vorbereitung auf den Workshop auch zu Hause gelesen werden.
+Bitte bereite dich auf den Workshop vor indem du Atom und Atom auf deinem Laptop installierst und einen GitHub Account öffnest. Das Kapitel ["Vobereitungen"](./preparations.md) wird dich durch die Installation führen. Zusätzlich solltest du dir das Kapitel ["Wie das Internet funktioniert"](https://tutorial.djangogirls.org/de/how_the_internet_works/) vom offiziellen Django Girls Tutorial durchlesen.
 
-### [Eine statische Webseite machen und auf Github publizieren.](/chapter1.md)
+## B. Der Workshop
+Während dem Workshop werden wir die folgenden Themen bearbeiten.
 
-### Mehr programmieren mit der Kommandozeile und Python
+### 1. Die Kommandozeile (Samstag Morgen)
+Die nächsten zwei Tage werden wir ganz viel mit der Kommandozeile arbeiten. Gehe durch das Kapitel ["Einführung in die Kommandozeile"](https://tutorial.djangogirls.org/de/intro_to_command_line/) um dich damit vertraut zu machen und die Basics zu lernen.
 
-Jetzt wird es richtig nerdig \(aber keine Sorge, dein Coach wird dir helfen\), wir lassen unsere statische Website ruhen und folgen den Kapitel [Introduction to commandline](https://tutorial.djangogirls.org/en/intro_to_command_line/) und [Introduction to python](https://tutorial.djangogirls.org/en/python_introduction/) aus dem Django Girls Tutorial. Die Kommandozeile und Python werden wir brauchen, wenn wir uns der nächsten Herausforderung zuwenden: eine dynamische Webseite zu machen.
+### 2. Deine erste statische Webseite (Samstag Morgen)
 
-### Django: Dein Blog ist eine dynamische Webseite.
+Jetzt wirst du deine [erste statische Webseite erstellen und auf GitHub veröffentlichen](./static-website/README.md).
 
-Jetzt tauchen wir richtig ins Django Girls Tutorial ein. Ab dem Kapitel [What is Django?](https://tutorial.djangogirls.org/en/django/) geht 's los. Dein Django Blog ist ein Projekt unabhängig von deiner statische Webseite. Es muss also in einem anderen Ordner gestartet werden. Auch in Github wird es an einem anderen Ort abgelegt als was du bis jetzt gemacht hast. Da Github nur statische Seiten selber darstellen kann, werden wir  unsere dynamische Webseite noch an einem anderen Ort \(Pythonanywhere genannt\) im Internet publizieren \(sogenanntes deployen\) müssen. Wir werden also immer noch Github benutzen um unsere code zu speichern, aber jetzt ist es nur als Zwisschenschritt. Von hier werden wir dann noch ein andere Service benutzen um die Seite auch darstellen zu können. Das tönt kompliziert, und das ist es auch, deine dynamische Seite online zu Publizieren ist wirklich eine gross Leistung.  Aber keine Sorge, es ist alles detailliert im Django Girls Tutorial beschrieben, und wird werden dich dabei helfen.
+### 3. Einführung in Python (Samstag Nachmittag)
 
-### Extras
+Jetzt wird es richtig nerdig \(aber keine Sorge, dein Coach wird dir helfen\), wir lassen unsere statische Website ruhen und folgen dem Kapitel [Introduction to python](https://tutorial.djangogirls.org/en/python_introduction/) aus dem Django Girls Tutorial. Wir werden Python morgen brauchen um die nächsten Herausforderung zu bewältigen: eine dynamische Webseite zu erstellen.
+
+### 4. Django: Dein Blog ist eine dynamische Webseite (Sonntag)
+
+Jetzt tauchen wir richtig ins Django Girls Tutorial ein. Ab dem Kapitel [What is Django?](https://tutorial.djangogirls.org/en/django/) geht 's los. Dein Django Blog ist ein Projekt unabhängig von deiner statische Webseite. Es muss also in einem anderen Ordner gestartet werden. Auch in Github wird es an einem anderen Ort abgelegt als das was du bis jetzt gemacht hast. Github kan nur statische Seiten selber darstellen, darum werden wir unsere dynamische Webseite noch an einem anderen Ort im Internet publizieren. Wir werden aber immer noch Github benutzen um unsere Code zu speichern, diese Mal aber nur als Zwischenschritt. Von hier werden wir dann einen anderem Service (Pythonanywhere) benutzen um die Seite darzustellen. Das klingt kompliziert, und das ist es auch. Deine dynamische Seite online zu bringen eine grosse Leistung. Aber keine Sorge, es ist alles detailliert im Django Girls Tutorial beschrieben und wird werden dir dabei helfen!
+
+Nun ab ins Tutorial --> [What is Django?](https://tutorial.djangogirls.org/en/django/)!
+
+### C. Extras
 
 Je nach Zeit und Interesse kannst du während des Workshops, zu Hause oder an einem der Follow up Events an folgenden Sachen weiter arbeiten:
 
-* [Extras zu deiner statische Webseite](/extras-zu-deine-statische-webseite.md)
-* Deine statische Seite in Django einbinden
+* [Deine statische Seite in Django einbinden]((./extras/adding-your-static-page-to-django.md)
+* * [What's next?](https://tutorial.djangogirls.org/en/whats_next/)
 * Mit den [Django Girls Tutorial Extensions](https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/content/) deinen Blog noch besser machen
 
-
+> Dieses Tutorial ist lizenziert unter der Creative Commons Attribution-ShareAlike 4.0 International Lizenz. Gehe auf [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/) um eine Kopie der Lizenz zu sehen.
+>
+>
+> Das Tutorial ist gemacht um in Zusammenspiel mit dem offiziellen Django Girls Tutorial bearbetiet zu werden und hat aus für die Zweckmässigkeit einige Teile davon dupliziert. \([https://tutorial.djangogirls.org/en](https://tutorial.djangogirls.org/de), lizenziert unter der Creative Commons Attribution-ShareAlike 4.0 International Lizenz\).
+>
+>
+>  Das CSS Kapitel wurde inspiriert und braucht Material aus der Einführung in HTML und CSS von 'Girl Develop It' \([https://www.girldevelopit.com/materials/html-intro](https://www.girldevelopit.com/materials/html-intro), lizenziert unter der MIT Lizenz\).
 

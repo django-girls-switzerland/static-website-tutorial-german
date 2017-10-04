@@ -1,12 +1,28 @@
-# Summary
+# Übersicht
 
-* [Introduction](README.md)
-* [Eine statische Webseite](chapter1.md)
-  * [Einführung](chapter1/subtext.md)
-  * [Tools](chapter1/tools.md)
-  * [Vorbereitung](chapter1/vorbereitung.md)
-  * [ Deine erste Mitteilung an die Welt](chapter1/deine-erstemitteilung-an-die-welt.md)
-  * [HTML](chapter1/html.md)
-  * [CSS](chapter1/css.md)
-* [Extras zu deine statische Webseite](extras-zu-deine-statische-webseite.md)
+* [Overview](README.md)
 
+----
+
+### A. Vorbereitung
+
+* [Vobereitungen](preparations.md)
+
+### B. The Workshop
+
+* [Kommandozeile](command-line.md)
+* [Statische Webseite](static-website/README.md)
+  * [Einführung](static-website/introduction.md)
+  * [Tools](static-website/tools.md)
+  * [Letzte Vorbereitungen](static-website/preparation.md)
+  * [Deine erste Mitteilung an die Welt](static-website/your-first-message-to-the-world.md)
+  * [HTML](static-website/html.md)
+  * [CSS](static-website/css.md)
+* [Python](python.md)
+* [Django](django.md)
+
+### C. Extras
+
+* [Deine statische Seite in Django einbinden](extras/adding-your-static-page-to-django.md)
+* [Wo mache ich weiter?](https://tutorial.djangogirls.org/de/whats_next/)
+* [Django Girls Tutorial Extensions](https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/content/en/)
