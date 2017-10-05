@@ -2,9 +2,7 @@
 
 ## A. Vorbereitung
 
-### Lernen wie das Internet funktioniert.
-
-Bitte bereite dich auf den Workshop vor indem du Atom und Git auf deinem Laptop installierst und einen GitHub Account öffnest. Das Kapitel ["Vobereitungen"](./preparations.md) wird dich durch die Installation führen. Zusätzlich solltest du dir das Kapitel ["Wie das Internet funktioniert"](https://tutorial.djangogirls.org/de/how_the_internet_works/) vom offiziellen Django Girls Tutorial durchlesen.
+Bitte bereite dich auf den Workshop vor indem du Atom und Git auf deinem Laptop installierst und einen GitHub Account öffnest. Das Kapitel ["Vorbereitungen"](./preparations.md) wird dich durch die Installation führen. Zusätzlich solltest du dir das Kapitel ["Wie das Internet funktioniert"](https://tutorial.djangogirls.org/de/how_the_internet_works/) vom offiziellen Django Girls Tutorial durchlesen.
 
 ## B. Der Workshop
 
@@ -35,6 +33,8 @@ Je nach Zeit und Interesse kannst du während des Workshops, zu Hause oder an ei
 * \[Deine statische Seite in Django einbinden\]\(\(./extras/adding-your-static-page-to-django.md\)
 * * [What's next?](https://tutorial.djangogirls.org/en/whats_next/)
 * Mit den [Django Girls Tutorial Extensions](https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/content/) deinen Blog noch besser machen
+
+
 
 > Dieses Tutorial ist lizenziert unter der Creative Commons Attribution-ShareAlike 4.0 International Lizenz. Gehe auf [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/) um eine Kopie der Lizenz zu sehen.
 >
