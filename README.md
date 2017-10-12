@@ -4,18 +4,14 @@
 
 Bitte bereite dich auf den Workshop vor indem du Atom und Git auf deinem Laptop installierst und einen GitHub Account öffnest. Das Kapitel ["Vorbereitungen"](./preparations.md) wird dich durch die Installation führen. Zusätzlich solltest du dir das Kapitel ["Wie das Internet funktioniert"](https://tutorial.djangogirls.org/de/how_the_internet_works/) vom offiziellen Django Girls Tutorial durchlesen.
 
-
-
 ## B. Der Workshop
 
 Hier findest du die technischen Präsentationen des Workshops:
 
-* Samstag: [Einführung in Programmiersprachen und Tools](https://docs.google.com/a/djangogirls.org/presentation/d/1LHgdzb5fePfOkqFqDDeWhLfz2WmAVPvZPPSpSTgPLdQ/edit?usp=sharing)
+* Samstag: [Programmiersprachen und Tools](https://docs.google.com/a/djangogirls.org/presentation/d/1LHgdzb5fePfOkqFqDDeWhLfz2WmAVPvZPPSpSTgPLdQ/edit?usp=sharing)
 * Sonntag: TBD
 
 Während dem Workshop werden wir die folgenden Themen bearbeiten.
-
-
 
 ### 1. Die Kommandozeile \(Samstag Morgen\)
 
