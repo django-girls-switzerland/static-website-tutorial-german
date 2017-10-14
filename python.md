@@ -4,7 +4,7 @@ Nachdem du die wichtigsten Entwicklertools (die Kommandozeile, Git, GitHub) und 
 
 ![](/assets/python.png)
 
-[Python](https://de.wikipedia.org/wiki/Python_(Programmiersprache\) ist eine weitverbreitete und universelle Programmiersprache. Das heisst, sie wird für ganz verschiedene Zwecke eingesetzt. Hier eine kleine Auswahl der Dinge die man mit Python machen kann:
+[Python](https://de.wikipedia.org/wiki/Python_(Programmiersprache)) ist eine weitverbreitete und universelle Programmiersprache. Das heisst sie wird für ganz verschiedene Zwecke eingesetzt. Hier eine kleine Auswahl der Dinge die man mit Python machen kann:
 
 * Aufgaben automatisieren (zum Beispiel Dateien kopieren oder umbenennen)
 * Daten vom Internet runterladen und verarbeiten
