@@ -35,8 +35,8 @@ Nun ab ins Tutorial --&gt; [What is Django?](https://tutorial.djangogirls.org/en
 
 Je nach Zeit und Interesse kannst du während des Workshops, zu Hause oder an einem der Follow up Events an folgenden Sachen weiter arbeiten:
 
-* \[Deine statische Seite in Django einbinden\]\(\(./extras/adding-your-static-page-to-django.md\)
-* * [What's next?](https://tutorial.djangogirls.org/en/whats_next/)
+* [Deine statische Seite in Django einbinden](./extras/adding-your-static-page-to-django.md)
+  * [What's next?](https://tutorial.djangogirls.org/en/whats_next/)
 * Mit den [Django Girls Tutorial Extensions](https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/content/) deinen Blog noch besser machen
 
 > Dieses Tutorial ist lizenziert unter der Creative Commons Attribution-ShareAlike 4.0 International Lizenz. Gehe auf [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/) um eine Kopie der Lizenz zu sehen.
