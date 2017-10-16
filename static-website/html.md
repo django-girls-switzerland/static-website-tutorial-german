@@ -44,7 +44,7 @@ Die Basisstruktur sieht also immer so aus:
 </html>
 ```
 
-Damit die HTML-Datei nicht nur für den Browser, sondern auch für normale Menschen ein bisschen lesbarer ist, rückt man verschachtelte Tags mittels Leerzeichen ein\00\00.
+Damit die HTML-Datei nicht nur für den Browser, sondern auch für normale Menschen ein bisschen lesbarer ist, rückt man verschachtelte Tags mittels Leerzeichen ein.
 
 Damit kannst du jetzt deine Webseite in der Datei `index.html` schreiben. Du kannst zum Beispiel einen Titel machen und darunter eine Liste mit Links zu den Seiten deiner Django Girls-Kolleginnen. Der Inhalt ist momentan nicht so wichtig, Hauptsache du spielst ein bisschen mit den HTML-Tags herum.
 
