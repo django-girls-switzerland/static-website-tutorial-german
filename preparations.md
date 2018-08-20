@@ -44,9 +44,3 @@ Das war schon alles zum Installieren, du hast es geschafft. Gratuliere! \o/
 Der letzte Schritt der Vorbereitung ist dir das Kapitel ['How the Internet Works'](https://tutorial.djangogirls.org/en/how_the_internet_works/) vom Django Girls Tutorial durchzulesen.
 
 Fertig? Super, jetzt bist du brereit für den Workshop. Wir freuen uns schon auf dich, bis bald! :)
-
-
-
-
-
-
