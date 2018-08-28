@@ -6,7 +6,7 @@
 
 ### A. Vorbereitung
 
-* [Vobereitungen](preparations.md)
+* [Vorbereitungen](preparations.md)
 
 ### B. The Workshop
 
