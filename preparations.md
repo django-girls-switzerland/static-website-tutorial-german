@@ -41,7 +41,7 @@ Gehe auf [GitHub.com](https://GitHub.com) und erstelle dir einen neuen Gratisacc
 Das war schon alles zum Installieren, du hast es geschafft. Gratuliere! \o/
 
 ### Die Einleitung lesen
-Der letzte Schritt zur Vorbereitung besteht darin, dir das Kapitel ['How the Internet Works'](https://tutorial.djangogirls.org/en/how_the_internet_works/) im Django Girls Tutorial durchzulesen.
+Der letzte Schritt zur Vorbereitung besteht darin, das Kapitel ['How the Internet Works'](https://tutorial.djangogirls.org/en/how_the_internet_works/) im Django Girls Tutorial durchzulesen.
 
 Fertig? Super, jetzt bist du bereit für den Workshop. Wir freuen uns schon auf dich! :)
 
