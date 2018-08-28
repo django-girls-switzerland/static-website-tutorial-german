@@ -23,7 +23,7 @@ Lade dir Git von [git-scm.com](https://git-scm.com) runter und folge den Anweisu
 
 > **Achtung:** Wenn du OS X 10.6, 10.7, oder 10.8 hast, musst du die Version für OS X Snow Leopard auswählen!
 
-> macOS High Sierra: Es ist nicht mehr möglich, die vorab installierte (aber nicht brauchbare) git-Version von OSX mittels "sudo mv /usr/bin/git /usr/bin/git-system" einfach umzubenennen, wie von git-scm vorgeschlagen. Der einfachste Weg, deine neue git-Installation zum Laufen zu bringen, ist, eine neue Datei in deinem Home-Ordner zu erstellen, mit dem Namen .bash_profile und nur einer Zeile: 'export PATH="/usr/local/bin:$PATH"'. Danach musst du nur noch deinen Terminal neu starten.
+> macOS High Sierra: Es ist nicht mehr möglich, die vorab installierte (aber nicht brauchbare) git-Version von OSX mittels "sudo mv /usr/bin/git /usr/bin/git-system" einfach umzubenennen, wie von git-scm vorgeschlagen. Der einfachste Weg, deine neue git-Installation zum Laufen zu bringen, ist, eine neue Datei in deinem Home-Ordner zu erstellen, mit dem Namen .bash_profile und nur einer Zeile: 'export PATH="/usr/local/bin:$PATH"'. Danach musst du nur noch dein Terminal neu starten.
 
 ##### Windows
 Du kannst Git von [git-scm.com](https://git-scm.com) runterladen. Beim Installieren kannst du immer auf 'next' klicken, ausser im fünften Schritt, wenn es heisst: "Adjusting your PATH environment". Wähle dann "Use Git and optional Unix tools from the Windows Command Prompt" (die Auswahlmöglichkeit ganz unten). Ausser bei diesem Schritt sind die Standardeinstellungen genau richtig.
