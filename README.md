@@ -33,7 +33,7 @@ Nun ab ins Tutorial --&gt; [What is Django?](https://tutorial.djangogirls.org/en
 
 ### C. Extras
 
-Je nach Zeit und Interesse kannst du während des Workshops, zu Hause oder an einem der Follow up-Events an folgenden Sachen weiter arbeiten:
+Je nach Zeit und Interesse kannst du während des Workshops, zu Hause oder an einem der Follow-Up-Events an folgenden Sachen weiter arbeiten:
 
 * [Deine statische Seite in Django einbinden](./extras/adding-your-static-page-to-django.md)
   * [What's next?](https://tutorial.djangogirls.org/en/whats_next/)
