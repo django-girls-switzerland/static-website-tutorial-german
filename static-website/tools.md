@@ -3,7 +3,7 @@
 Wir fangen also mit einer statische Webseite an, und werden dafür zuerst HTML und CSS lernen. Zusätzlich werden wir uns mit ein paar Programmiertools vertraut machen: Atom (deinem Code Editor), Git und Github. Selbstverständlich werden wir auch mit der Kommandozeile arbeiten, die du heute Morgen schon kennengelernt hat.
 
 ### Code Editor
-Während den Vorbereitungen (Kapitel ["Vorbereitungen"](../preparations.md) hast du Atmom installiert. Das wird dein Code Editor für dieses Wochende sein. Du wirst damit alle deine Code-Dateien öffnen, sie darin bearbeiten und sie (hoffentlich) damit speichern. Der Code Editor ist wie das Word für deine HTML-, CSS- und später für deine Python-Dateien.
+Während den Vorbereitungen (Kapitel ["Vorbereitungen"](../preparations.md) hast du Atom installiert. Das wird dein Code Editor für dieses Wochende sein. Du wirst damit alle deine Code-Dateien öffnen, sie darin bearbeiten und sie (hoffentlich) damit speichern. Der Code Editor ist wie das Word für deine HTML-, CSS- und später für deine Python-Dateien.
 
 ![](/assets/Screen_Shot_Atom.png)
 
