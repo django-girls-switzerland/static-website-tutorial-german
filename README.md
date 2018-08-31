@@ -15,7 +15,7 @@ Während des Workshops werden wir die folgenden Themen bearbeiten:
 
 ### 1. Die Kommandozeile \(Samstag Morgen\)
 
-Die nächsten zwei Tage werden wir häufig mit der Kommandozeile arbeiten. Gehe durch das Kapitel ["Einführung in die Kommandozeile"](https://tutorial.djangogirls.org/de/intro_to_command_line/), um dich damit vertraut zu machen und die Basics zu lernen.
+Die nächsten zwei Tage werden wir ganz viel mit der Kommandozeile arbeiten. Gehe durch das Kapitel ["Einführung in die Kommandozeile"](https://tutorial.djangogirls.org/de/intro_to_command_line/), um dich damit vertraut zu machen und die Basics zu lernen.
 
 ### 2. Deine erste statische Webseite \(Samstag Morgen\)
 
