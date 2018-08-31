@@ -23,7 +23,7 @@ Jetzt wirst du deine [erste statische Webseite erstellen und auf GitHub veröffe
 
 ### 3. Einführung in Python \(Samstag Nachmittag\)
 
-Es wird richtig nerdig \(aber keine Sorge, dein Coach wird dir helfen\)! Wir lassen unsere statische Webseite ruhen und folgen dem Kapitel [Introduction to python](https://tutorial.djangogirls.org/en/python_introduction/) aus dem Django Girls Tutorial. Wir werden Python morgen brauchen, um die nächste Herausforderung zu bewältigen: eine dynamische Webseite erstellen.
+Nun wird es richtig nerdig \(aber keine Sorge, dein Coach wird dir helfen\)! Wir lassen unsere statische Webseite ruhen und folgen dem Kapitel [Introduction to python](https://tutorial.djangogirls.org/en/python_introduction/) aus dem Django Girls Tutorial. Wir werden Python morgen brauchen, um die nächste Herausforderung zu bewältigen: eine dynamische Webseite erstellen.
 
 ### 4. Django: Dein Blog ist eine dynamische Webseite \(Sonntag\)
 
