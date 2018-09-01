@@ -41,7 +41,7 @@ Nun werden wir ein neues Repository auf Github machen und dieses dann auf unsere
 
 Gehe im Browser zu `https://github.com/new` \(falls du einen 404 Error bekommst, musst du dich zuerst noch einloggen\). Das Feld 'Repository' muss mit `username.github.io` ausgefüllt werden, wobei _username_ dein Benutzername auf GitHub ist. Achte darauf, dass der Teil vor dem ersten Punkt genau mit deinem Github-Benutzernamen übereinstimmt. Dies muss so sein, weil GitHub nur Files in diesem Repository unter `http://username.github.io` als eine Webseite veröffentlicht. Danach klicke auf 'Create Repository'.
 
-Jetzt kannst du wieder zurück zur Kommandozeile gehen und das gerade gemachte Repository mit dem untenstehende Befehl auf deinen Rechner duplizieren (klonen). Ersetze dabei immer _username_ mit deinem GitHub Benutzernamen, _Your Name_ durch deinen Namen und _you@example.com_ durch deine Emailaddresse.
+Jetzt kannst du wieder zurück zur Kommandozeile gehen und das gerade gemachte Repository mit dem untenstehende Befehl auf deinen Rechner duplizieren (klonen). Ersetze dabei immer _username_ mit deinem GitHub Benutzernamen, _Your Name_ durch deinen Namen und _you@example.com_ durch deine Emailaddresse. Das `user.name` sowie `user.email` nach `--global` musst du *nicht* ersetzen, damit sagst du Git, welche Option du ändern willst.
 
 Die Zeilen ohne Dollar Zeichen '$' sollst du nicht eintippen. Das sind die Antworten des Computers auf deine Befehle!
 Deine Kommandozeile sollte ungefähr so antworten, wie im Beispiel unten.
