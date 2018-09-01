@@ -8,8 +8,8 @@ Bitte bereite dich auf den Workshop vor, indem du Atom und Git auf deinem Laptop
 
 Hier findest du die technischen Präsentationen des Workshops:
 
-* Samstag: [Programmiersprachen und Tools](https://docs.google.com/a/djangogirls.org/presentation/d/1LHgdzb5fePfOkqFqDDeWhLfz2WmAVPvZPPSpSTgPLdQ/edit?usp=sharing)
-* Sonntag: [Einführung in Django](https://docs.google.com/a/djangogirls.org/presentation/d/1R92A025MCB-srM2xnczdeC_nWozMlqh3tlksSlJP494/edit?usp=sharing)
+* Samstag: [Programmiersprachen und Tools](https://docs.google.com/presentation/d/1CrbBLo1jo98QBx6__YdQgvygw0caQZ2sIDO9LJOd-K4/edit?usp=sharing)
+* Sonntag: [Einführung in Django](https://docs.google.com/presentation/d/19PwBvHJBtd78wScMEjFf508yXNPz5DMxPXfAWIimrmc/edit?usp=sharing)
 
 Während des Workshops werden wir die folgenden Themen bearbeiten:
 
