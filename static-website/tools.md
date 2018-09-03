@@ -11,7 +11,7 @@ Während den Vorbereitungen (Kapitel ["Vorbereitungen"](../preparations.md) hast
 
 Git ist ein Versionierungssystem. Du solltest es während dem [Vorbereitungskapitel](../preparations.md) schon installiert haben.
 
-Hast du auch schon mal erlebt, dass du einen Bericht schreiben wolltest und am Ende zig Dateien auf deinem Computer hattest mit Namen wie `bericht\_v1.doc`, `bericht\_v2\_korrektur.doc`, `bericht\_final.doc`? Der Job von Git ist es, dieses Chaos mit deinen Code-Dateien zu vermeiden. Git merkt sich alle Änderungen, die du an deinen Dateien machst, so dass du die Files nicht mehr umbenennen musst. Trotzdem kannst jederzeit zu einer älteren Version deiner Dateien zurückkehren. Zudem kannst du zu jeder Version einen Kommentar schreiben, was du geändert hast. Das hilft dir dabei zu wissen, was du wann geändert hast.
+Hast du auch schon mal erlebt, dass du einen Bericht schreiben wolltest und am Ende zig Dateien auf deinem Computer hattest mit Namen wie `bericht_v1.doc`, `bericht_v2_korrektur.doc`, `bericht_final.doc`? Der Job von Git ist es, dieses Chaos mit deinen Code-Dateien zu vermeiden. Git merkt sich alle Änderungen, die du an deinen Dateien machst, so dass du die Files nicht mehr umbenennen musst. Trotzdem kannst jederzeit zu einer älteren Version deiner Dateien zurückkehren. Zudem kannst du zu jeder Version einen Kommentar schreiben, was du geändert hast. Das hilft dir dabei zu wissen, was du wann geändert hast.
 
 ### GitHub [(link)](https://github.com)
 
